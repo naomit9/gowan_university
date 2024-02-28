@@ -1,0 +1,52 @@
+[26-Feb-2024 17:56:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "jquery" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php(324): university_files('')
+#1 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\header.php(7): wp_head()
+#9 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\template.php(790): require_once('C:\\Users\\nhutr\\...')
+#10 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\template.php(725): load_template('C:\\Users\\nhutr\\...', true, Array)
+#11 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php(1): get_header()
+#13 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\nhutr\\...')
+#14 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nhutr\\...')
+#15 C:\Users\nhutr\Local Sites\gowan-university\app\public\index.php(17): require('C:\\Users\\nhutr\\...')
+#16 {main}
+  thrown in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\functions.php on line 3
+[26-Feb-2024 18:37:22 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-config.php(103): require_once('C:\\Users\\nhutr\\...')
+#4 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-load.php(50): require_once('C:\\Users\\nhutr\\...')
+#5 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\nhutr\\...')
+#6 {main}
+  thrown in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\class-wp-hook.php on line 324
+[27-Feb-2024 14:01:06 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 4
+[27-Feb-2024 14:01:21 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 4
+[27-Feb-2024 14:01:32 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 4
+[27-Feb-2024 14:01:39 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 4
+[27-Feb-2024 15:51:38 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\header.php on line 20
+[27-Feb-2024 16:32:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php:16
+Stack trace:
+#0 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nhutr\\...')
+#2 C:\Users\nhutr\Local Sites\gowan-university\app\public\index.php(17): require('C:\\Users\\nhutr\\...')
+#3 {main}
+  thrown in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 16
+[27-Feb-2024 16:47:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function paginate_link() in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php:34
+Stack trace:
+#0 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\nhutr\\...')
+#2 C:\Users\nhutr\Local Sites\gowan-university\app\public\index.php(17): require('C:\\Users\\nhutr\\...')
+#3 {main}
+  thrown in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\index.php on line 34
+[27-Feb-2024 16:54:21 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\single.php on line 20
+[27-Feb-2024 17:27:44 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\archive.php on line 10
+[27-Feb-2024 17:29:10 UTC] PHP Parse error:  syntax error, unexpected identifier "the_author", expecting "," or ";" in C:\Users\nhutr\Local Sites\gowan-university\app\public\wp-content\themes\gowan-university-theme\archive.php on line 12
